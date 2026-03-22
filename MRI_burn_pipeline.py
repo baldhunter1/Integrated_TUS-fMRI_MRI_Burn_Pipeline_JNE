@@ -5,7 +5,7 @@ Script is adapted from the MRI burn pipeline code provided by
 Dr. Samuel Pichardo from the University of Calgary.
 
 This script runs in a GUI and asks the user for a high-resolution/native T1w 
-image, a rapid/scout T1w image, a standard-space binary mask (ROI/target), 
+image, a rapid/scout T1w image, a native space binary mask (ROI/target), 
 an output folder for registration results, and DICOM input/output folders.
 
 It performs a rigid-body registration (FSL FLIRT) of the high-resolution T1w 
